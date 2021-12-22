@@ -8,7 +8,7 @@ https://github.com/cloudflare/tableflip
 
 
 ## Integration with supervisor
-
+```
 [program:Service]
 command=/path/to/pidproxy /path/to/binary -some-flag
 startsec=3
@@ -18,3 +18,4 @@ directory=/path
 redirect_stderr=true
 autorestart=true
 environment=
+```
